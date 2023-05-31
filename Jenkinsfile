@@ -49,6 +49,7 @@ pipeline {
             agent any
                 steps {
                     echo 'branche main'
+                    echo 'test du webhook'
                 }
         }
     }
